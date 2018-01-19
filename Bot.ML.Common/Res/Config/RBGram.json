@@ -1,0 +1,28 @@
+﻿{
+  "Options": [
+    {
+      "Name": "UtteranceSeparator",
+      "Value": "(；|，|。|！|？|”|“|;|,|\\.|!|\\?|\\n|&quot;)"
+    },
+    {
+      "Name": "PunctuationIncluded",
+      "Value": " "
+    },
+    {
+      "Name": "UniGramCutterClass",
+      "Value": "Bot.VSM.Modules.DocProcessor.SlotReader.RegexMatcher"
+    },
+    {
+		"Name": "RuleFile",
+		"Value": "..\\..\\..\\..\\MLICModel\\config\\PhoneParameterRules.tsv"
+	},
+    {
+      "Name": "TermLengthArray",
+      "Value": "1"
+    },
+    {
+      "Name": "FeatureSelectionPolicyClass",
+      "Value": "Bot.VSM.Modules.TextToVector.Policy.AllValidSelectionPolicy"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+﻿{
+  "NegtiveLabel": "Other",
+  "VSMConfigPaths": [ "Bot.ML.Common.Res.Config.BiGram.json" ],
+  "Models": [
+    {
+      "PositiveLabel": "Payment",
+      "VSModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "VSM_BC_Suning_Training_cx_Payment.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "TLC_BC_Suning_Training_cx_Payment.zip"
+      }
+    },
+    {
+      "PositiveLabel": "Promotion",
+      "VSModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "VSM_BC_Suning_Training_cx_Promotion.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "TLC_BC_Suning_Training_cx_Promotion.zip"
+      }
+    },
+    {
+      "PositiveLabel": "AskParameter",
+      "VSModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "VSM_BC_Suning_Training_cx_AskParameter.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "TLC_BC_Suning_Training_cx_AskParameter.zip"
+      }
+    },
+    {
+      "PositiveLabel": "Delivery",
+      "VSModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "VSM_BC_Suning_Training_cx_Delivery.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "TLC_BC_Suning_Training_cx_Delivery.zip"
+      }
+    },
+    {
+      "PositiveLabel": "None",
+      "VSModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "VSM_BC_Suning_Training_cx_None.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "icmodels1209",
+        "FileName": "TLC_BC_Suning_Training_cx_None.zip"
+      }
+    }
+  ]
+}
+

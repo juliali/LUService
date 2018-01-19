@@ -1,0 +1,66 @@
+﻿{
+  "Tenants": [
+    {
+      "TenantName": "Suning",
+      "Modules": [
+        {
+          "Name": "RuleBasedModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.RuleBasedModule",
+          "TargetFile": "./Data/RuleBasedLU/TargetColumns.txt",
+          "ConditionFile": "./Data/RuleBasedLU/Conditions.txt",
+          "IntentFile": "./Data/RuleBasedLU/Intent.txt"
+        },
+        {
+          "Name": "RuleBasedExtractorModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.RuleBasedExtractorModule",
+          "ExtFile": "./Data/RuleBasedExtractor/extractor.txt",
+          "CityFile": "./Data/RuleBasedExtractor/City.txt"
+        },
+        {
+          "Name": "IntentClassifierModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.IntentClassifierModule",
+          "LoadMethod": "DB",
+          "SqlConnectionString": "Server=tcp:suningdb.database.windows.net,1433;Initial Catalog=SuningData;Min Pool Size=10;Max Pool Size=1000;Persist Security Info=False;User ID=build;Password=Microsoft123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+          "SqlCommand": "SELECT IntentName,SubIntentName, RegexRule, RuleType FROM [LU.Test.Intent] JOIN [LU.Test.IntentTriggerRule] on [LU.Test.Intent].Id = [LU.Test.IntentTriggerRule].IntentId",
+          "KeywordSqlCommand": "SELECT word, RegexRule FROM [LU.Test.Intent.Keyword]"
+        },
+        {
+          "Name": "EdiModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.EdiModule",
+          "EdiHttpEndPoint": "http://ediluweb.azurewebsites.net/models/suning_model_4_12_17/query?query={0}",
+          "SubIntents": "./Data/Edi/TargetColumns.txt",
+          "SlotNormalization": "./Data/Edi/ConstraintNormalize.txt"
+        },
+        {
+          "Name": "LUAggregatorModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.LUAggregatorModule",
+          "Stopwords": "./Data/LUAggregator/StopWord.txt",
+          "TableEngineBlacklist": "./Data/LUAggregator/TableEngineKeywordBlacklist.txt"
+        }
+      ]
+    },
+    {
+      "TenantName": "HA",
+      "Modules": [
+        {
+          "Name": "RuleBasedExtractorModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.RuleBasedExtractorModule",
+          "ExtFile": "./Data/RuleBasedExtractor/extractor.txt"
+        },
+        {
+          "Name": "IntentClassifierModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.IntentClassifierModule",
+          "IntentWhiteList": "./Data/IntentClassifier/whitelist.txt",
+          "IntentBlackList": "./Data/IntentClassifier/blacklist.txt"
+        },
+        {
+          "Name": "LUAggregatorModule",
+          "FullName": "Bot.LanguageUnderstanding.MixedLU.LUAggregatorModule",
+          "EdiHttpEndPoint": "http://ediluweb.azurewebsites.net/models/suning_model_11_22_18/query?query={0}",
+          "Stopwords": "./Data/LUAggregator/StopWord.txt",
+          "TableEngineBlacklist": "./Data/LUAggregator/TableEngineKeywordBlacklist.txt"
+        }
+      ]
+    }
+  ]
+}

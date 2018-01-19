@@ -1,0 +1,67 @@
+﻿Promotion	Promotion	送到
+Promotion	Promotion	配送
+Promotion	Promotion	送货
+Promotion	Promotion	送达
+Promotion	Promotion	派送
+Promotion	Promotion	用.*券
+
+Available	Available	取到货
+Available	Available	收货
+
+Delivery	Delivery	到货
+
+
+Delivery	到货时间	(提前|提早)
+Delivery	自提	(有问题|坏|检测)
+Delivery	到货时间	(退货|退换货)
+
+Delivery	邮费	(区别|不同)
+Delivery	自提	(区别|不同)
+Delivery	验货	(区别|不同)
+Delivery	到货时间	(区别|不同)
+Delivery	发货时间	(区别|不同)
+
+Delivery	邮费	(修改|改变|改成|改)
+Delivery	自提	(修改|改变|改成|改)
+Delivery	验货	(修改|改变|改成|改)
+Delivery	到货时间	(修改|改变|改成|改)
+Delivery	发货时间	(修改|改变|改成|改)
+
+Payment	分期方法	(任性付|办理不了|不能|无法|不行)
+Payment	分期方法	储蓄卡
+Payment	分期方法	免息
+Payment	分期问题	免息
+Payment	分期问题	任性付
+Payment	任性付	(办理|申请)
+Payment	任性付	(没有|没法用|没法使用|不能使用)优惠
+Payment	货到付款	剩的
+Payment	分期利息	免
+
+Payment	分期方法	(修改|改变|改成|改)
+Payment	任性付	(修改|改变|改成|改)
+Payment	分期利息	(修改|改变|改成|改)
+Payment	门店付	(修改|改变|改成|改)
+Payment	网银	(修改|改变|改成|改)
+Payment	任性付	(修改|改变|改成|改)
+Payment	信易付	(修改|改变|改成|改)
+Payment	货到付款	(修改|改变|改成|改)
+Payment	易付宝	(修改|改变|改成|改)
+Payment	企业付款	(修改|改变|改成|改)
+Payment	快捷支付	(修改|改变|改成|改)
+Payment	扫码支付	(修改|改变|改成|改)
+Payment	支付宝微信	(修改|改变|改成|改)
+Payment	支付方式	(修改|改变|改成|改)
+Payment	分期问题	(修改|改变|改成|改)
+
+Promotion	信用卡	任性付
+Promotion	赠品	配送
+Promotion	赠品	送货
+Promotion	赠品	送到
+Promotion	赠品	派送
+Promotion	赠品	送达
+Promotion	赠品	时候
+Promotion	赠品	时间
+Promotion	赠品	耳机
+Promotion	赠品	村里
+Promotion	赠品	镇上
+Promotion	赠品	学校

@@ -1,0 +1,12 @@
+﻿###ConstraintColumn\tExtractedValueRegex\tTrueValue
+
+Model	6sp	6s Plus
+Model	6p	6 Plus
+###Model	(i)?6	iphone 6
+###Model	(i)?7	iphone 7
+Model	^\dgb?	
+Model	good|root|^http	
+Brand	^http	
+Storage	6splus	
+###Storage	\d+g.+	
+Storage	^\dD$	

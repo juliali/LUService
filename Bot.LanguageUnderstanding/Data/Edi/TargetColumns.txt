@@ -1,0 +1,23 @@
+﻿AskParameter	Price	[^降涨加]多少钱|[^降涨加]价|价格|^多少钱|\d{3}
+AskParameter	Attachment	包装清单|配件|耳机|充电器|自拍杆|东西|数据线|附件|膜|壳|只有[裸手罗]机|[裸手罗]机.*含|配送[^吗]|标配.*含|卡针
+AskParameter	Licensed	国行|正品|行货|水货|全新|翻新|港版|美版|原封|假货|拆封
+AskParameter	Storage	内存[^卡]|多少G|\d{2}G|运存|存储
+AskParameter	ScreenSize	屏幕|屏.*寸|分辨率|寸.*屏
+AskParameter	Camera	像素|相素|摄像头|拍照|照相|相片
+AskParameter	Color	[^奶现][颜金白黑红粉蓝绿灰][^牙包]|色
+AskParameter	SIM	((电信|移动|联通|网通|运营商)(的卡|的号|卡|号|手机卡|手机号))|(([装用安])(电信|移动|联通|网通))|[装用安]什么卡|什么卡.*[装用安]
+AskParameter	NFC	nfc
+AskParameter	Battery	电池|荣量|容量|耐用|续航|电量|毫安
+AskParameter	Carrier	运营商|全网通|[^6]4g|3g|2g|(电信|移动|联通)(版)|三网通|双网通|(移动|电信|联通)|号码卡|全网制
+AskParameter	fingerprint	指纹
+AskParameter	SIMSize	大卡|小卡|micro|nano|剪卡|mini|sim
+AskParameter	StandByMode	双卡|双通
+AskParameter	OTG	otg
+AskParameter	CPU	cpu|处理器
+AskParameter	sdCard	tf|存储卡|内存卡|扩展|((加|插).*(存储|内存|卡))|((存储|内存|卡).*(加|插))
+AskParameter	Bluetooth	蓝牙[^耳]
+AskParameter	ProductTime	上市|生产|发布|哪年
+AskParameter	OS	系统|os\d|360 OS|Android|IOS|MIUI|Symbian|Windows Phone|YunOS|安卓
+AskParameter	Material	^(?!屏幕).*(材质|外壳)
+AskParameter	Default	配置
+IsAvailable	Inventory	^(?!.*(假|付款|售后))

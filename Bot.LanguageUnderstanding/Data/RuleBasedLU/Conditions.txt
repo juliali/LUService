@@ -1,0 +1,93 @@
+### start with [###] is the comment, will not parse in the program.
+### Schema: Keyword \t ColumnName \t ColumnType \t Operation \t Value1 \t Value2
+### where ([ColumnName] [Operation] Value1) or ([ColumnName] [Operation] Value2)
+
+红色	Color	string	like	红色
+白色	Color	string	like	白色
+灰色	Color	string	like	灰色
+黑色	Color	string	like	黑色
+
+800万	Rear Camera	string	like	800万	800W	800w
+800w	Rear Camera	string	like	800万	800W	800w
+800W	Rear Camera	string	like	800万	800W	800w
+1200万	Rear Camera	string	like	1200万	1200W	1200w
+1200w	Rear Camera	string	like	1200万	1200W	1200w
+1200W	Rear Camera	string	like	1200万	1200W	1200w
+1300万	Rear Camera	string	like	1300万	1300W	1300w
+1300w	Rear Camera	string	like	1300万	1300W	1300w
+1300W	Rear Camera	string	like	1300万	1300W	1300w
+
+32G	StorageSize	string	like	32G	32g
+32g	StorageSize	string	like	32G	32g
+64G	StorageSize	string	like	64G	64g
+64g	StorageSize	string	like	64G	64g
+
+###OPPO	Brand	string	like	OPPO	oppo
+###oppo	Brand	string	like	OPPO	oppo
+###三星	Brand	string	like	三星	samsung	Samsung
+###samsung	Brand	string	like	三星	samsung	Samsung
+###Samsung	Brand	string	like	三星	samsung	Samsung
+###华为	Brand	string	like	华为
+
+###R9	Name	string =	R9
+###畅想5S	Name	string =	畅想5S
+###畅想5	Name	string =	畅想5
+
+1000元以上	Price	int	>	1000
+2000元以上	Price	int	>	2000
+3000元以上	Price	int	>	3000
+大于1000元	Price	int	>	1000
+大于2000元	Price	int	>	2000
+大于3000元	Price	int	>	
+高于1000元	Price	int	>	1000
+高于2000元	Price	int	>	2000
+高于3000元	Price	int	>	3000
+
+1000元以下	Price	int	<	1000
+2000元以下	Price	int	<	2000
+3000元以下	Price	int	<	3000
+小于1000元	Price	int	<	1000
+小于2000元	Price	int	<	2000
+小于3000元	Price	int	<	3000
+低于1000元	Price	int	<	1000
+低于2000元	Price	int	<	2000
+低于3000元	Price	int	<	3000
+
+144112749	ProductID	string	like	144112749
+144112750	ProductID	string	like	144112750
+144112751	ProductID	string	like	144112751
+152003256	ProductID	string	like	152003256
+136842355	ProductID	string	like	136842355
+139836231	ProductID	string	like	139836231
+137024484	ProductID	string	like	137024484
+163128316	ProductID	string	like	163128316
+156150019	ProductID	string	like	156150019
+159053254	ProductID	string	like	159053254
+125663327	ProductID	string	like	125663327
+
+http://product.suning.com/0000000000/144112749	ProductID	string	like	144112749
+http://product.suning.com/0000000000/144112750	ProductID	string	like	144112750
+http://product.suning.com/0000000000/144112751	ProductID	string	like	144112751
+http://product.suning.com/0000000000/152003256	ProductID	string	like	152003256
+http://product.suning.com/0000000000/136842355	ProductID	string	like	136842355
+http://product.suning.com/0000000000/139836231	ProductID	string	like	139836231
+http://product.suning.com/0000000000/137024484	ProductID	string	like	137024484
+http://product.suning.com/0000000000/163128316	ProductID	string	like	163128316
+http://product.suning.com/0000000000/156150019	ProductID	string	like	156150019
+http://product.suning.com/0000000000/159053254	ProductID	string	like	159053254
+http://product.suning.com/0000000000/125663327	ProductID	string	like	125663327
+
+###支持双卡多模吗	StandbyMode	string	like	双卡多模	
+###支持双卡多模	StandbyMode	string	like	双卡多模
+###有双卡多模吗	StandbyMode	string	like	双卡多模
+###有双卡多模	StandbyMode	string	like	双卡多模
+###支持双卡双待吗	StandbyMode	string	like	双卡双待	
+###支持双卡双待	StandbyMode	string	like	双卡双待
+###有双卡双待吗	StandbyMode	string	like	双卡双待
+双卡双待	StandbyMode	string	like	双卡双待
+双卡多模	StandbyMode	string	like	双卡双待
+
+可以指纹解锁	FingerPrint	string	=	支持
+支持指纹解锁	FingerPrint	string	=	支持
+
+

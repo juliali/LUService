@@ -1,0 +1,16 @@
+﻿{
+  "Options": [   
+    {
+      "Name": "UniGramCutterClass",
+      "Value": "Bot.VSM.Modules.DocProcessor.SlotReader.EdiSlotReader"
+    },
+    {
+      "Name": "TermLengthArray",
+      "Value": "1"
+    },
+    {
+      "Name": "FeatureSelectionPolicyClass",
+      "Value": "Bot.VSM.Modules.TextToVector.Policy.AllValidSelectionPolicy"
+    }
+  ]
+}

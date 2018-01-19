@@ -1,0 +1,62 @@
+﻿{
+  "NegtiveLabel": "Other",
+  "VSMConfigPaths": [ "Bot.ML.Common.Res.Config.BiGramEn.json" ],
+  "Models": [
+    {
+      "PositiveLabel": "ConfirmNo",
+      "VSModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "VSM_BC_HA_DA_Training_ConfirmNo.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "TLC_BC_HA_DA_Training_ConfirmNo.zip"
+      }
+    },
+    {
+      "PositiveLabel": "ConfirmYes",
+      "VSModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "VSM_BC_HA_DA_Training_ConfirmYes.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "TLC_BC_HA_DA_Training_ConfirmYes.zip"
+      }
+    },
+    {
+      "PositiveLabel": "Desire",
+      "VSModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "VSM_BC_HA_DA_Training_Desire.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "TLC_BC_HA_DA_Training_Desire.zip"
+      }
+    },
+    {
+      "PositiveLabel": "QuestionWH",
+      "VSModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "VSM_BC_HA_DA_Training_QuestionWH.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "TLC_BC_HA_DA_Training_QuestionWH.zip"
+      }
+    },
+    {
+      "PositiveLabel": "QuestionYN",
+      "VSModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "VSM_BC_HA_DA_Training_QuestionYN.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "hadamodels1212",
+        "FileName": "TLC_BC_HA_DA_Training_QuestionYN.zip"
+      }
+    }
+  ]
+}
+

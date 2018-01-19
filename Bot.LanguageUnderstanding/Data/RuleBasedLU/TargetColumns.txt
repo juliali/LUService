@@ -1,0 +1,50 @@
+### start with [###] is the comment, will not parse in the program.
+### Schema: TargetColumn \t Keyword
+
+Name	哪些手机
+Name	什么手机
+Name	几种手机
+Name	多少手机
+Name	的手机
+
+
+Screen Size	屏幕大小
+Screen Size	屏幕尺寸
+Screen Size	屏幕数据
+Screen Size	的屏幕
+
+CPU Frequency	CPU频率
+CPU Frequency	CPU主频
+
+CPU Core Number	几核
+CPU Core Number	几个核
+
+Color	什么颜色
+Color	几种颜色
+Color	多少颜色
+Color	的颜色
+
+Fore Camera	像素多高
+Fore Camera	像素多大
+Fore Camera	像素多少
+Fore Camera	多高像素
+Fore Camera	多大像素
+Fore Camera	多少像素
+
+Rear Camera	像素多高
+Rear Camera	像素多大
+Rear Camera	像素多少
+Rear Camera	多高像素
+Rear Camera	多大像素
+Rear Camera	多少像素
+
+StorageSize	内存多大
+StorageSize	内存大小
+StorageSize	内存容量
+
+AttachmentList	会送耳机么
+StandbyMode	支持双卡双待吗
+StandbyMode	支持双卡双待么
+FingerPrint	可以指纹解锁么
+
+Privilege	优惠

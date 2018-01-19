@@ -1,0 +1,18 @@
+﻿{
+  "NegtiveLabel": "Other",
+  "VSMConfigPaths": [ "Bot.ML.Common.Res.Config.BiGramEn.json" ],
+  "Models": [
+    {
+      "PositiveLabel": "RS",
+      "VSModelPath": {
+        "ContainerName": "harsmodels1212",
+        "FileName": "VSM_BC_HA_RS_Training_RS.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "harsmodels1212",
+        "FileName": "TLC_BC_HA_RS_Training_RS.zip"
+      }
+    }
+  ]
+}
+

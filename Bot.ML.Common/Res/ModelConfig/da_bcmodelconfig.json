@@ -1,0 +1,62 @@
+﻿{
+  "NegtiveLabel": "Other",
+  "VSMConfigPaths": [ "Bot.ML.Common.Res.Config.BiGram.json" ],
+  "Models": [
+    {
+      "PositiveLabel": "ConfirmNo",
+      "VSModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "VSM_BC_Suning_Training_DA_ConfirmNo.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "TLC_BC_Suning_Training_DA_ConfirmNo.zip"
+      }
+    },
+    {
+      "PositiveLabel": "ConfirmYes",
+      "VSModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "VSM_BC_Suning_Training_DA_ConfirmYes.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "TLC_BC_Suning_Training_DA_ConfirmYes.zip"
+      }
+    },
+    {
+      "PositiveLabel": "Desire",
+      "VSModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "VSM_BC_Suning_Training_DA_Desire.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "TLC_BC_Suning_Training_DA_Desire.zip"
+      }
+    },
+    {
+      "PositiveLabel": "QuestionWH",
+      "VSModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "VSM_BC_Suning_Training_DA_QuestionWH.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "TLC_BC_Suning_Training_DA_QuestionWH.zip"
+      }
+    },
+    {
+      "PositiveLabel": "QuestionYN",
+      "VSModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "VSM_BC_Suning_Training_DA_QuestionYN.model"
+      },
+      "TLCModelPath": {
+        "ContainerName": "damodels1209",
+        "FileName": "TLC_BC_Suning_Training_DA_QuestionYN.zip"
+      }
+    }
+  ]
+}
+

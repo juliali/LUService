@@ -1,0 +1,36 @@
+{
+	"responses": [
+	{
+		"type": "anger",
+		"response": ["别生气哦,Sunny看看怎么能帮上忙", "不好意思哦"],
+	},
+	{
+		"type": "hurry",
+		"response": ["我们会尽快处理的。", "放心吧，我们会以最快的速度处理的。"],
+	},
+	{
+		"type": "greeting",
+		"response": ["您好，我是苏宁智能客服机器人Sunny，请问有什么可以帮您？", "您好，我是苏宁智能客服机器人Sunny，请问有什么可以帮您？苏宁双11来啦，点击 http://cuxiao.suning.com/scs11yszn.html 查看详情。"],
+	},
+	{
+		"type": "praise",
+		"response": ["感谢您对Sunny的认可，能够帮到您真是太好了", "这是我们应该做到。"],
+	},
+	{
+		"type": "critics",
+		"response": ["对不起，给您添麻烦了",  "不好意思哦， 看来我们还可以做得更好"],
+	},
+	{
+		"type": "neutral",
+		"response": [""],
+	},
+	{
+		"type": "thanks",
+		"response": ["感谢您对Sunny的认可，能够帮到您真是太好了", "嗯嗯，不客气,能够帮到您真是太好了"],
+	},
+	{
+		"type": "closing",
+		"response": ["感谢您对苏宁易购的支持，祝您生活愉快再见~-", "bye", "嗯嗯,祝您购物愉快"],
+	}
+	],
+}
